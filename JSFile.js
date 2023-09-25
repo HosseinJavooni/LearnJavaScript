@@ -1,6 +1,11 @@
+// start from here:
+// https://www.w3schools.com/js/js_let.asp
 console.log("Hello World")
 a = 5; b = 6; c = a + b;
 function doSome(){
+    const a = 34;
+    let b = a + 23;
+    console.log("let is: " + b);
     document.getElementById('test2').innerHTML = 7 + 9;
     document.getElementById('test2').style.fontSize =
     "35px";
@@ -14,6 +19,4 @@ function doSome(){
 function deleteAnElement(){
 
 }
-// start from here:
-// https://www.w3schools.com/js/js_syntax.asp
 
